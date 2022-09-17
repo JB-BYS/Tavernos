@@ -1,0 +1,14 @@
+name: Tavernos
+version: '${project.version}'
+main: fr.chilli.Main
+api-version: 1.18
+authors: [ Chilli_pepper ]
+
+softdepend:
+  - [PlaceholderAPI]
+
+depend: [Essentials]
+
+commands:
+  account:
+    description: Ouvre le menu de gestion d'argent du serveur
